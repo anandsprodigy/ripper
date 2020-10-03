@@ -54,10 +54,15 @@
 
         	#container{
         		width: 95vw;
+        		margin: auto;
         	}
 
         	.owl-nav{
         		text-align: center;
+        	}
+
+        	.spacer{
+        		padding-top: 20px;
         	}
 
         </style>
@@ -69,12 +74,30 @@
 				    items:2,
 				    loop:true,
 				    margin:10,
+				    center: true,
 				    nav:true,
 				    navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
-				    responsive:{
-				        600:{
-				            items:4
-				        }
+					responsive:{
+					        0:{
+					            items:1,
+					            nav:true,
+					            loop:true
+					        },
+					        700:{
+					            items:2,
+					            nav:true,
+								loop:true
+					        },
+					        900:{
+					        	items:3,
+					        	nav:true,
+					        	loop:true
+					        },
+					        1200:{
+					            items:4,
+					            nav:true,
+					            loop:true
+					        }
 				    }
 				});
 			});
@@ -149,16 +172,17 @@
 		</div>	
     </section> -->
 
-    <section id="container">
+
+    <section id="container" class="spacer"> 
     	<!-- Set up your HTML -->
 		<div class="owl-carousel container-fluid">
 		  <div>
-				<div class="card" style="width: 18rem;">
+				<div class="card" style="width: 18rem; height: 30rem;">
 				  <img src="./assets/images/corei9.png" class="card-img-top" alt="...">
 				  <div class="card-body">
-				    <h5 class="card-title">Intel® Core™ i9 Processors</h5></h5>
+				    <h5 class="card-title">Intel Core i5-9600KF Coffee Lake 6-Core 3.7 GHz (4.6 GHz Turbo) Desktop Processor BX80684I59600KF</h5></h5>
 				  </div>
-				  <div class="card-body">
+				  <div class="card-body mx-auto">
 				  	<p class="text-center text-danger">&#x20B9; 14,900</p>
 				  	<button type="button" class="btn btn-primary">Buy</button>
 					<button type="button" class="btn btn-primary">Add To Cart</button>
@@ -166,12 +190,12 @@
 				</div>
 		  </div>
 		  <div>
-				<div class="card" style="width: 18rem;">
+				<div class="card" style="width: 18rem; height: 30rem;">
 				  <img src="./assets/images/11th-gen-core-i7-processors.png" class="card-img-top" alt="...">
 				  <div class="card-body">
-				    <h5 class="card-title text-center">Intel® Core™ i7 Processors</h5>
+				    <h5 class="card-title text-center">Intel Core i5-9600KF Coffee Lake 6-Core 3.7 GHz (4.6 GHz Turbo) Desktop Processor BX80684I59600KF</h5>
 				  </div>
-				  <div class="card-body">
+				  <div class="card-body mx-auto">
 				  	<p class="text-center text-danger">&#x20B9; 14,900</p>
 				  	<button type="button" class="btn btn-primary">Buy</button>
 					<button type="button" class="btn btn-primary">Add To Cart</button>
@@ -179,7 +203,7 @@
 				</div>
 		  </div>
 		  <div>
-				<div class="card" style="width: 18rem;">
+				<div class="card" style="width: 18rem; height: 30rem;">
 				  <img src="./assets/images/corei9.png" class="card-img-top" alt="...">
 				  <div class="card-body">
 				    <h5 class="card-title">Intel 10th Gen Comet Lake Core i3-10100 Processor 6M Cache, up to 4.30 GHz</h5></h5>
@@ -192,12 +216,12 @@
 				</div>
 		  </div>
 		  <div>
-				<div class="card" style="width: 18rem;">
+				<div class="card" style="width: 18rem; height: 30rem;">
 				  <img src="./assets/images/11th-gen-core-i7-processors.png" class="card-img-top" alt="...">
 				  <div class="card-body">
-				    <h5 class="card-title text-center">Intel® Core™ i7 Processors</h5>
+				    <h5 class="card-title text-center">Intel Core i5-9600KF Coffee Lake 6-Core 3.7 GHz (4.6 GHz Turbo) Desktop Processor BX80684I59600KF</h5>
 				  </div>
-				  <div class="card-body">
+				  <div class="card-body mx-auto">
 				  	<p class="text-center text-danger">&#x20B9; 14,900</p>
 				  	<button type="button" class="btn btn-primary">Buy</button>
 					<button type="button" class="btn btn-primary">Add To Cart</button>
@@ -205,12 +229,12 @@
 				</div>
 		  </div>
 		  <div>
-				<div class="card" style="width: 18rem;">
+				<div class="card" style="width: 18rem; height: 30rem;">
 				  <img src="./assets/images/corei9.png" class="card-img-top" alt="...">
 				  <div class="card-body">
-				    <h5 class="card-title">Intel® Core™ i9 Processors</h5></h5>
+				    <h5 class="card-title">Intel Core i5-9600KF Coffee Lake 6-Core 3.7 GHz (4.6 GHz Turbo) Desktop Processor BX80684I59600KF</h5></h5>
 				  </div>
-				  <div class="card-body">
+				  <div class="card-body mx-auto">
 				  	<p class="text-center text-danger">&#x20B9; 14,900</p>
 				  	<button type="button" class="btn btn-primary">Buy</button>
 					<button type="button" class="btn btn-primary">Add To Cart</button>
@@ -218,12 +242,12 @@
 				</div>
 		  </div>
 		  <div>
-				<div class="card" style="width: 18rem;">
+				<div class="card" style="width: 18rem; height: 30rem;">
 				  <img src="./assets/images/11th-gen-core-i7-processors.png" class="card-img-top" alt="...">
 				  <div class="card-body">
-				    <h5 class="card-title text-center">Intel® Core™ i7 Processors</h5>
+				    <h5 class="card-title text-center">Intel Core i5-9600KF Coffee Lake 6-Core 3.7 GHz (4.6 GHz Turbo) Desktop Processor BX80684I59600KF</h5>
 				  </div>
-				  <div class="card-body">
+				  <div class="card-body mx-auto">
 				  	<p class="text-center text-danger">&#x20B9; 14,900</p>
 				  	<button type="button" class="btn btn-primary">Buy</button>
 					<button type="button" class="btn btn-primary">Add To Cart</button>
